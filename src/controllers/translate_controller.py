@@ -14,7 +14,7 @@ def index(reverse=False):
     translate_from = "pt"
     translate_to = "en"
     translated = "Tradução"
-    
+
     if request.method == "POST":
         text_to_translate = request.form.get("text-to-translate")
         translate_from = request.form.get("translate-from")
