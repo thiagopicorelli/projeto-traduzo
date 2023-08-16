@@ -17,6 +17,9 @@
         <ul class="controls">
           <li class="row from">
             <select name="translate-from">
+              {% for item in language %}
+                <option value={{ item.acronym }}>{{ item.name|upper }}</option>
+              {% endfor %}
             </select>
           </li>
           <div>
@@ -24,6 +27,9 @@
           </div>
           <li class="row to">
             <select name="translate-to">
+              {% for item in language %}
+                <option value={{ item.acronym }}>{{ item.name|upper }}</option>
+              {% endfor %}
             </select>
           </li>
         </ul>
