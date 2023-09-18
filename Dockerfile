@@ -16,4 +16,5 @@ RUN if [ "$FLASK_ENV" = "dev" ] ; then pip install --no-cache-dir -r dev-require
 
 COPY . .
 
+RUN python3 src/run_seeds.py
 CMD ["python3", "src/app.py"]
