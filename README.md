@@ -1,6 +1,6 @@
 # Traduzo
 
-![traduzo](https://github.com/thiagopicorelli/projeto-traduzo/assets/60528610/591fe8a6-d376-4788-aa76-f341cc81a5e4)
+![traduzo](https://github.com/thiagopicorelli/projeto-traduzo/assets/60528610/11848686-90c2-40c4-a8e7-41ad8d88b19e)
 
 Aplicação feita no curso da Trybe do backend de Tradução, utilizando a API do Google Tradutor e feito em **Python**, utilizando o framework **Flask**. Ele utiliza um banco de dados feito pela Trybe do **MongoDB** para salvar a lista de linguagens, e um frontend também já quase pronto pela Trybe, que precisou ser editado e conectado com o backend produzido. Os testes também foram feitos pela Trybe.
 
